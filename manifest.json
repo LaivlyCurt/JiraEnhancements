@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "JiraEnhancements",
+    "version": "1.0",
+    "description": "A simple extension to modify css and add additional functionality to Jira",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://*.atlassian.net/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+/*Jira is displaying the error screen every time on certain browsers like Brave. 
+This can be removed once they fix this issue. */
+.css-zolx62 {
+	display:none;
+}
+
+/*Adjust card color styles to make it properly visible*/
+.yse7za_cardColorInner {
+  width: 100% !important;
+  opacity: 0.2;
+}
+
+._bfhk1cj8 {
+    width: 100% !important;
+    opacity: 0.2;
+}
+
+/*Compact view on dialogs*/
+._19pkv47k {
+    margin-top: 0 !important;
+}
+
+.css-znayk6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.css-dsaytk {
+    min-width: 50vw;
+}
+
+._1bsb13r0 {
+    width: unset;
+}
+
+.css-1f7ebe5-container {
+    width: 25vw;
+}
+
+.css-iff9a {
+    width: 24vw;
+}
+
+div[data-testid="issue-create.common.ui.fields.description-field.wrapper"] {
+    width: 50vw;
+}
+
+.css-o087qy {
+    --modal-dialog-width: 100% !important;
+}
